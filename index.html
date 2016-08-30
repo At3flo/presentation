@@ -16,16 +16,60 @@
     <link href="assets/css/impress-min-presi.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="impress-not-supported">
+
+    <!-- This fallback message is only visible when there is `impress-not-supported` class on body. -->
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
     <div id="impress">
 
-        <!-- slide 0 -->
+      <div class="step" data-x="7000" data-y="0" data-scale="5" data-rotate="-60">
+              <strong>At3flo</strong>
+              c'est quoi ?
+      </div>
+
+      <div class="step" data-x="6800" data-y="+100" data-scale="5" data-rotate="-60">
+              <br> Difficile à résumer en
+              <br> en quelque mots
+      </div>
+
+      <div class="step" data-x="8500" data-y="1300" data-scale="5" data-rotate="0">
+          Soit un Tiers-lieu
+      </div>
+
+      <div class="step" data-x="8000" data-y="1800" data-scale="5" data-rotate="60">
+          Un atelier de partage et de plaisir
+      </div>
+
+      <div class="step" data-x="4000" data-y="0" data-scale="5" data-rotate="-90">
+          Un atelier de partage et de plaisir
+      </div>
+
+      <div class="step" data-x="0" data-y="0" data-scale="5" data-rotate="-90">
+          Un atelier de partage et de plaisir
+      </div>
+
+      <div class="step" data-x="-3000" data-y="0" data-scale="5" data-rotate="-90">
+          Un atelier de partage et de plaisir
+      </div>
+
+      <div class="step" data-x="-6000" data-y="0" data-scale="5" data-rotate="-90">
+          Un atelier de partage et de plaisir
+      </div>
+
+
+
+<!--
+        <!-- slide 0
         <div id="slide0" class="step slide" data-x="0" data-y="0" data-scale="11">
             <h1>Presentation At3flo</h1>
             <div class="content-box-gray"></div>
         </div>
 
-        <!-- slide 1 -->
+        <!-- slide 1
         <div id="slide1" class="step slide" data-x="-3000" data-y="-950" data-scale="3">
             <div class="content-box-white">
                 <img src="assets/img/slide1.png" alt="Slide1" width=650>
@@ -38,11 +82,15 @@
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
             <br />And <a href="https://icons8.com" target="_blank">Icon pack by Icons8</a>
             <br />
-        </div>
+        </div>      -->
 
         <!-- overview, just position and zoom out a lot  -->
-        <div id="overview" class="step" data-x="0" data-y="0" data-scale="11">
+        <div id="overview" class="step" data-x="0" data-y="0" data-scale="30">
         </div>
+
+        <div id="reversed" class="step" data-x="0" data-y="0" data-z="-0" data-rotate-y="-180" data-rotate-y="0" data-scale="30">
+        </div>
+
     </div>
 
     <!-- initialize the script -->
