@@ -365,11 +365,11 @@ a:focus {
     -o-transform:      rotate(-10deg);
     transform:         rotate(-10deg);
 
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
 }
 
 #thirdPlaceWordle.present .transform2 {
@@ -379,11 +379,11 @@ a:focus {
   -o-transform:      translateY(-30px);
   transform:         translateY(-30px);
 
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay:    1s;
+    -ms-transition-delay:     1s;
+    -o-transition-delay:      1s;
+    transition-delay:         1s;
 }
 
 #thirdPlaceWordle.present .transform3 {
@@ -393,11 +393,11 @@ a:focus {
   -o-transform:      translateX(100px);
   transform:         translateX(100px);
 
-    -webkit-transition-delay: 0.75s;
-    -moz-transition-delay:    0.75s;
-    -ms-transition-delay:     0.75s;
-    -o-transition-delay:      0.75s;
-    transition-delay:         0.75s;
+    -webkit-transition-delay: 1.5s;
+    -moz-transition-delay:    1.5s;
+    -ms-transition-delay:     1.5s;
+    -o-transition-delay:      1.5s;
+    transition-delay:         1.5s;
 }
 
 #fablab strong {
