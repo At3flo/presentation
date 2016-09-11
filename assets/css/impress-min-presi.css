@@ -336,6 +336,7 @@ a:focus {
   The big overview, it does not have content of its own
 */
 #overview { display: none }
+#reversed {display: none}
 
 /*
     We also make other steps visible and give them a pointer cursor using the
@@ -345,6 +346,14 @@ a:focus {
     opacity: 1;
     cursor: pointer;
 }
+
+.impress-on-reversed .step {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.step.hide:not(.active) { opacity: 0; }
 
 /*
     ... 'rotating' to rotate a quarter of a second later ...
