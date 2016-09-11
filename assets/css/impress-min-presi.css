@@ -393,7 +393,7 @@ a:focus {
 
 #fablab strong {
   font-weight: bold;
-    font-size: 72px;
+    font-size: 100px;
 }
 
 #revolution .footnote {
@@ -403,6 +403,66 @@ a:focus {
 #revolution h1 {
   font-weight: bold;
     font-size: 32px;
+}
+
+#knowledge{
+  text-align: center;
+}
+
+#knowledge.present .coaching{
+  -webkit-transform: scale(0.7);
+  -moz-transform:    scale(0.7);
+  -ms-transform:     scale(0.7);
+  -o-transform:      scale(0.7);
+  transform:         scale(0.7);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+
+#knowledge.present .agility{
+  -webkit-transform: scale(1.2) translateX(200px);
+  -moz-transform:    scale(1.2) translateX(200px);
+  -ms-transform:     scale(1.2) translateX(200px);
+  -o-transform:      scale(1.2) translateX(200px);
+  transform:         scale(1.2) translateX(200px);
+
+    -webkit-transition-delay: 1.5s;
+    -moz-transition-delay:    1.5s;
+    -ms-transition-delay:     1.5s;
+    -o-transition-delay:      1.5s;
+    transition-delay:         1.5s;
+}
+
+#knowledge.present .conferences{
+  -webkit-transform: scale(0.9);
+  -moz-transform:    scale(0.9);
+  -ms-transform:     scale(0.9);
+  -o-transform:      scale(0.9);
+  transform:         scale(0.9);
+
+    -webkit-transition-delay: 2s;
+    -moz-transition-delay:    2s;
+    -ms-transition-delay:     2s;
+    -o-transition-delay:      2s;
+    transition-delay:         2s;
+}
+
+#knowledge.present .doc{
+  -webkit-transform: scale(2) translateX(-100px);
+  -moz-transform:    scale(2) translateX(-100px);
+  -ms-transform:     scale(2) translateX(-100px);
+  -o-transform:      scale(2) translateX(-100px);
+  transform:         scale(2) translateX(-100px);
+
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay:    1s;
+    -ms-transition-delay:     1s;
+    -o-transition-delay:      1s;
+    transition-delay:         1s;
 }
 
 /*
