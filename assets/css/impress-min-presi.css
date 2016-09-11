@@ -478,6 +478,81 @@ a:focus {
   text-align: center;
 }
 
+#transforms3d-cube .cube {
+    transform-style: flat;
+    transform: perspective(600px) rotateX(330deg) rotateY(320deg);
+}
+
+.cube.target {
+    width: 504px;
+    height: 304px;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+}
+
+.target {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 150px;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+
+}
+
+.cube > .face {
+    position: absolute;
+    opacity: 1;
+    transition: all 1s, transform 1s;
+}
+
+.cube > .face:nth-child(1) {
+    transition-delay: 0, 0;
+    background: rgba(165, 165, 165, 1);
+    transform: rotateY( 0deg) translateZ(150px);
+}
+.cube > .face:nth-child(2) {
+    transition-delay: 0, 1s;
+    background: rgba(165, 165, 165, 0.6);
+    transform: rotateY(180deg) translateZ(150px);
+}
+.cube > .face:nth-child(3) {
+    transition-delay: 0, 2s;
+    background: rgba(165, 165, 165, 0.6);
+    transform: rotateY(-90deg) translateZ(150px);
+width: 300px;
+}
+
+.cube > .face:nth-child(4) {
+    transition-delay: 0, 3s;
+    background: rgba(165, 165, 165, 0.6);
+    transform: rotateY( 90deg) translateZ(350px);
+    width: 300px;
+}
+.cube > .face:nth-child(5) {
+    transition-delay: 0, 4s;
+    background: rgba(165, 165, 165, 1);
+    transform: rotateX( 90deg) translateZ(150px);
+}
+.cube > .face:nth-child(6) {
+    transition-delay: 0, 5s;
+    background: rgba(165, 165, 165, 1);
+    transform: rotateX(-90deg) translateZ(150px);
+}
+
+.face {
+    width: 500px;
+    height: 300px;
+
+    font-size: 2em;
+    line-height: 285px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: -2px -1px 2px rgba(0,0,0,0.2);
+    transform-style: preserve-3d;
+    backface-visibility: inherit;
+}
+
 /*
   ------------------------------------------------------------
   impress fallback
