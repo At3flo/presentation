@@ -478,7 +478,7 @@ a:focus {
   text-align: center;
 }
 
-#transforms3d-cube .cube {
+#container .cube {
     transform-style: flat;
     transform: perspective(600px) rotateX(330deg) rotateY(320deg);
 }
