@@ -38,7 +38,7 @@
 
     <div id="impress">
 
-        <div class="step" data-x="-8000" data-y="-1000" data-scale="0.1" data-rotate="0">
+        <div id=start class="step" data-x="-8000" data-y="-1000" data-scale="0.1" data-rotate="0">
             <strong>At3flo</strong> c'est quoi ?
         </div>
 
@@ -165,6 +165,14 @@
 
 
     <!-- initialize the script -->
+    <div class="hint">
+        <strong>Use a spacebar or arrow keys to navigate</strong>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<strong>Use a spacebar or arrow keys to navigate</strong>";
+        }
+    </script>
     <script src="assets/js/impress.js"></script>
     <script>
         impress().init();
